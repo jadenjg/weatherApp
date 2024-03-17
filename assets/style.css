@@ -1,0 +1,103 @@
+:root{
+
+    --text-colour: #ffff;
+    --sun-blue-colour: #00a7e1; 
+    --sun-grey-colour: #cfcfcd; 
+
+}
+body{
+
+    font-family: 'Montserrat', sans-serif,'Sedgwick Ave', cursive !important;
+    font-size: 16px;
+    background-image: linear-gradient(to right bottom, #19a7ce, #1798c0, #1689b1, #157aa3, #146c94);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-image 1s ease;
+    filter: saturate(50%);
+    height: 100vh;
+    overflow: hidden;
+    overflow-x: hidden;
+    color: var(--text-colour)!important;
+    
+}
+.sunny{
+
+    background-image: linear-gradient(to right bottom, #19a7ce, #1798c0, #1689b1, #157aa3, #146c94);
+    transition: background-image 1s ease;
+
+}
+.cloudy{
+    background-image: linear-gradient(to right bottom, #b4b4b3, #b2b1b1, #afaeae, #acacac, #a9a9a9);
+    transition: background-image 1s ease;
+}
+#search{
+    height: 60px;
+    width: 600px;
+    border-radius: 30px;
+    border: 0px;
+    border-color: var(--text-colour);
+    max-width: 80%;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-indent: 25px;
+
+}
+input::placeholder{
+
+    font-family: 'Montserrat', sans-serif,'Sedgwick Ave', cursive;
+    font-size: 16px;
+}
+h1{
+
+    font-size: 150px!important;
+    font-weight: 200!important;
+    padding: 0px!important;
+    margin-top: 0px!important;
+    margin-bottom: 20px!important;
+    text-align: center!important;
+}
+h2{
+
+    font-size: 30px;
+    font-weight: 100;
+    padding: 0px;
+    margin:0px;
+    text-align: center!important;
+
+}
+h3{
+
+    font-size: 40px;
+    font-weight: 300;
+    padding: 0px;
+    font-weight: bold;
+    text-align: center!important;
+}
+img{
+
+    height: auto;
+    max-height: 600px;
+    width: 100%;
+    object-fit: contain;
+}
+p{
+   
+    font-size:30px;
+    font-weight: 300;
+    padding: 0px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin: 0px;
+
+}
+.material-symbols-outlined {
+    font-size: 50px !important;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
